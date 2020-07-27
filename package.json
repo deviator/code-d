@@ -303,7 +303,13 @@
 					"scope": "resource",
 					"default": true,
 					"description": "Automatically highlight tested/untested converage lines with light red/green backgrounds per line for *.lst files."
-				},
+        },
+        "d.coverageReportPath": {
+          "type": "string",
+          "scope": "resource",
+          "default": ".",
+          "description": "Coverage reports path."
+        },
 				"d.enableGCProfilerDecorations": {
 					"type": "boolean",
 					"scope": "resource",
